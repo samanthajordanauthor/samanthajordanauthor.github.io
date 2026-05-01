@@ -1,1 +1,1 @@
-# samanthajordanauthour.github.io
+# samanthajordanauthor.github.io
