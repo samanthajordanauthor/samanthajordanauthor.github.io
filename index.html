@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Samantha Jordan</title>
+
+<!-- Google Fonts -->
+<link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:wght@400;700&family=Montserrat:wght@300;500&display=swap" rel="stylesheet">
+
+<style>
+body {
+    margin: 0;
+    background: linear-gradient(180deg, #120911 0%, #1a0d14 100%);
+    color: #f4eee9;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.container {
+    max-width: 1100px;
+    margin: auto;
+    padding: 60px 20px;
+}
+
+.hero {
+    text-align: center;
+    padding: 100px 20px 60px;
+}
+
+.hero h1 {
+    font-family: 'Bodoni Moda', serif;
+    font-size: 64px;
+    letter-spacing: 2px;
+    margin: 0;
+}
+
+.hero p {
+    margin-top: 20px;
+    font-size: 18px;
+    color: #c89aa0;
+}
+
+.tagline {
+    margin-top: 10px;
+    font-style: italic;
+    color: #b89668;
+}
+
+.section {
+    margin-top: 80px;
+}
+
+.section h2 {
+    font-family: 'Bodoni Moda', serif;
+    font-size: 28px;
+    margin-bottom: 30px;
+    border-bottom: 1px solid rgba(255,255,255,0.1);
+    padding-bottom: 10px;
+}
+
+.books {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 20px;
+}
+
+.book {
+    background: rgba(255,255,255,0.03);
+    padding: 20px;
+    border-radius: 6px;
+    text-align: center;
+    transition: 0.3s;
+}
+
+.book:hover {
+    background: rgba(255,255,255,0.08);
+}
+
+.book-title {
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+.book-status {
+    font-size: 14px;
+    color: #aaa;
+}
+
+.about p {
+    max-width: 600px;
+    line-height: 1.6;
+}
+
+.footer {
+    text-align: center;
+    margin-top: 100px;
+    font-size: 14px;
+    color: #777;
+}
+</style>
+</head>
+
+<body>
+
+<div class="hero">
+    <h1>Samantha Jordan</h1>
+    <p>Psychological thrillers about obsession, memory, and the lies we survive.</p>
+    <div class="tagline">For women who were told they were too much.</div>
+</div>
+
+<div class="container">
+
+    <div class="section">
+        <h2>Coming Soon</h2>
+        <div class="books">
+            <div class="book">
+                <div class="book-title">Vanishing Ember</div>
+                <div class="book-status">In Progress</div>
+            </div>
+            <div class="book">
+                <div class="book-title">Maya Is Missing</div>
+                <div class="book-status">In Development</div>
+            </div>
+            <div class="book">
+                <div class="book-title">Nothing Ever Happens Here</div>
+                <div class="book-status">In Development</div>
+            </div>
+        </div>
+    </div>
+
+    <div class="section about">
+        <h2>About</h2>
+        <p>
+        Samantha Jordan writes psychological thrillers that explore obsession, trauma, memory, and the dangerous stories people tell themselves to survive.
+        </p>
+    </div>
+
+</div>
+
+<div class="footer">
+    © Samantha Jordan
+</div>
+
+</body>
+</html>
