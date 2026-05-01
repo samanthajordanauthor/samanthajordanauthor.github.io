@@ -37,13 +37,13 @@ body {
 }
 
 .hero p {
-    font-size: 18px;
+    margin-top: 18px;    font-size: 18px;
     letter-spacing: 0.5px;
     color: #d6c6c9;
 }
 
 .tagline {
-    margin-top: 18px;
+    margin-top: 10px;
     font-size: 12px;
     letter-spacing: 2px;
     color: #7a5a5f;
@@ -66,27 +66,29 @@ body {
     grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
     gap: 20px;
 }
-
 .book {
-    background: rgba(255,255,255,0.03);
-    padding: 20px;
-    border-radius: 6px;
+    background: linear-gradient(180deg, rgba(255,255,255,0.04), rgba(255,255,255,0.01));
+    padding: 28px;
+    border-radius: 10px;
     text-align: center;
     transition: 0.3s;
+    border: 1px solid rgba(255,255,255,0.06);
 }
 
 .book:hover {
-    background: rgba(255,255,255,0.08);
+    transform: translateY(-6px);
+    box-shadow: 0 10px 30px rgba(0,0,0,0.4);
 }
 
 .book-title {
     font-size: 18px;
-    margin-bottom: 5px;
+    letter-spacing: 0.5px;
 }
 
 .book-status {
-    font-size: 14px;
-    color: #aaa;
+    margin-top: 6px;
+    font-size: 13px;
+    color: #9a8c8f;
 }
 
 .about p {
@@ -107,7 +109,7 @@ body {
 
 <div class="hero">
     <h1>Samantha Jordan</h1>
-    <p>Obsession. Memory. The lies we survive.</p>
+    <p>Obsession. Memory. The lies we tell ourselves survive.</p>
    <div class="tagline">
     FOR WOMEN WHO WERE TOLD THEY WERE TOO MUCH.<br>
     AND DIDN’T LISTEN.
